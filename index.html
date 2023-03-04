@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>EMI Calculator</h2>
+        <form>
+          <div>
+            <label>Loan Amount</label>
+            <input type="number" id="loan-amount" required placeholder="amount in ₹">
+          </div>
+          <div>
+            <label>Interest Rate (in %)</label>
+            <input type="number" id="interest-rate" required placeholder="interest in %">
+          </div>
+          <div>
+            <label>Loan Tenure (in months)</label>
+            <input type="number" id="loan-tenure" required placeholder="Tenure">
+            <button class="btnyear new" id="mtyr">Yearly</button>
+            <button class="btnmonth" id="btmn">Monthly</button>
+          </div>
+          <div>
+            <button type="button" id="calculate-button">Calculate EMI</button>
+          </div>
+          <div>
+            <label>Total EMI => </label>
+            <input type="text" id="emi" disabled>
+          </div>
+        </form>
+        <div class="calculate-results">
+          <!-- <select name="mhts" id="mnts">
+            <option value="">select</option>
+            <option value="Month">Month</option>
+            <option value="Year">Year</option>
+          </select> -->
+          <ul>
+            <!-- <li>Monthly/Yearly EMI :<span class="month"></span></li> -->
+            <li class="">Principle Amount :<span class="principle"></span></li>
+            <li class="">Loan on Interest :<span class="loan-i"></span></li>
+            <li class="">Total amount need to paid :<span class="total"></span></li>
+          </ul>
+        </div>
+      </div>
+    <script src="./index.js"></script>
+</body>
+</html>

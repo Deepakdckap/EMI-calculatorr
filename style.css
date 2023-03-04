@@ -1,0 +1,78 @@
+.calculator {
+    /* margin: 20px; */
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 400px;
+    min-width: 600px;
+    padding-left: 60px;
+  }
+  
+  .calculator h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .calculator form div {
+    margin-bottom: 10px;
+  }
+  
+  .calculator label {
+    display: inline-block;
+    width: 200px;
+  }
+  
+  .calculator input[type="number"], .calculator input[type="text"] {
+    width: 180px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .calculator button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    /* position: relative;
+    left: 130px; */
+  }
+  
+  .calculator button:hover {
+    color: #3e8e41;
+    background-color: #d7d6d6;
+  }
+  li{
+    margin: 18px 10px 14px 10px;
+  }
+  ul {
+    margin: 30px 10px 10px 10px;
+  }
+  .calculator button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  body{
+    background-image: url(./calculater.gif);
+    /* background-repeat: no-repeat; */
+  }
+  .calculator{
+    background-color: white;
+    margin-top: 50px;
+  }
+
+  .btnyear {
+    background-color: #064a0e;
+  }
+/* body{
+    background-image: repeating-linear-gradient(109deg, #ff008dd1, maroon 60px);
+} */
+
